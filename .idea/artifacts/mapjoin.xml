@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="mapjoin">
+    <output-path>$PROJECT_DIR$/out/artifacts/mapjoin</output-path>
+    <root id="archive" name="mapjoin.jar">
+      <element id="module-output" name="BigDataStudy" />
+    </root>
+  </artifact>
+</component>
