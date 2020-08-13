@@ -27,6 +27,7 @@ public class TestRegion {
         conf.set("hbase.zookeeper.quorum","172.16.98.186:2181,172.16.98.185:2181,172.16.98.184:2181");
         //通过连接工厂创建连接
         Connection connection = ConnectionFactory.createConnection(conf);
+
         HBaseAdmin admin = (HBaseAdmin)connection.getAdmin();
         //建表
         HTableDescriptor test_region_barry = new HTableDescriptor(TableName.valueOf("test_region_barry"));
